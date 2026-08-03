@@ -1,6 +1,6 @@
 # Il Coraggio di Fiorire
 
-Pagina pubblica statica del brand "Il Coraggio di Fiorire" (ex "I Fiori di Andrea").
+Pagina pubblica statica del brand "Il Coraggio di Fiorire".
 
 - `ilcoraggiodifiorire.html` — pagina principale, single-file (font e asset embedded).
 - `index.html` — redirect alla pagina principale, per servire correttamente GitHub Pages alla root del sito.
