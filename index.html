@@ -95,6 +95,35 @@ body{
   color:var(--accent);
 }
 
+/* ---------- BANNER SOCIAL ---------- */
+.social-banner{
+  background:var(--accent);
+  color:#fff;
+  padding:0.7rem 0;
+  text-align:center;
+}
+.social-banner-inner{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:0.35rem 1.1rem;
+  font-family:'Josefin Sans', sans-serif;
+  font-size:0.82rem;
+  letter-spacing:0.02em;
+}
+.social-banner-links{display:flex; gap:1rem;}
+.social-banner-links a{
+  color:#fff;
+  text-decoration:underline;
+  text-underline-offset:2px;
+  font-weight:600;
+}
+.social-banner-links a:hover{opacity:0.85;}
+@media (max-width:640px){
+  .social-banner-inner{font-size:0.76rem;}
+}
+
 /* ---------- HERO ---------- */
 .hero{
   padding:1.2rem 0 4rem 0;
@@ -608,6 +637,17 @@ footer .line{
 
 </head>
 <body>
+
+<div class="social-banner">
+  <div class="wrap social-banner-inner">
+    <span>Segui i nostri canali social ufficiali per non perdere le offerte riservate</span>
+    <span class="social-banner-links">
+      <!-- TODO: sostituire href="#" con i link reali appena create le pagine Instagram/Facebook -->
+      <a href="#" rel="noopener">Instagram</a>
+      <a href="#" rel="noopener">Facebook</a>
+    </span>
+  </div>
+</div>
 
 <section class="hero">
   <div class="wrap">
