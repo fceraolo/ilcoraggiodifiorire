@@ -399,8 +399,10 @@ h2.small{font-size:clamp(1.9rem,4.5vw,2.8rem)}
 .acard:nth-child(3n+1){transform:rotate(-.7deg)}.acard:nth-child(3n+2){transform:rotate(.6deg)}.acard:nth-child(3n){transform:rotate(-.3deg)}
 .acard:hover{transform:translateY(-6px) rotate(0);box-shadow:0 30px 44px -28px rgba(74,47,51,.7)}
 .amedia{position:relative;border-radius:12px;overflow:hidden;background:var(--bg2)}
+.amedia.nofoto{aspect-ratio:4/5}
 .amedia img{width:100%;height:auto;display:block;transition:transform 1.2s var(--ease)}
-.acard:hover .amedia img{transform:scale(1.05)}
+.acard:hover .amedia.nofoto{aspect-ratio:4/5}
+.amedia img{transform:scale(1.05)}
 .acap{display:flex;align-items:baseline;justify-content:space-between;gap:.6rem;padding:.55rem .35rem .5rem}
 .acap h4{font-family:var(--hand);font-weight:700;font-size:1.45rem;line-height:1.05;margin:0}
 .acode{font-size:.68rem;letter-spacing:.14em;color:var(--gold);font-weight:600;white-space:nowrap}
