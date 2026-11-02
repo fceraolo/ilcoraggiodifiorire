@@ -347,8 +347,8 @@ h2{font-family:var(--script);font-weight:400;font-size:clamp(2.6rem,7vw,4.6rem);
   .cartdlg[open]{align-items:flex-end}
 }
 
-.toast{position:fixed;left:50%;top:1rem;z-index:100;transform:translate(-50%,-140%);background:var(--night);color:#fff;border-radius:99px;padding:.75rem 1.3rem;font-size:.86rem;max-width:min(92vw,520px);text-align:center;box-shadow:0 20px 40px -14px rgba(0,0,0,.5);transition:transform .5s var(--ease)}
-.toast.on{transform:translate(-50%,0)}
+.toast{position:fixed;left:50%;top:1rem;z-index:100;transform:translate(-50%,-200%);opacity:0;visibility:hidden;background:var(--night);color:#fff;border-radius:99px;padding:.75rem 1.3rem;font-size:.86rem;max-width:min(92vw,520px);text-align:center;box-shadow:0 20px 40px -14px rgba(0,0,0,.5);transition:transform .5s var(--ease),opacity .3s,visibility .5s}
+.toast.on{transform:translate(-50%,0);opacity:1;visibility:visible}
 
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
