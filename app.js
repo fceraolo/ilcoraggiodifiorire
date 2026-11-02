@@ -6,7 +6,7 @@
   var CONFIG = {
     // Numero WhatsApp di Martina in formato internazionale senza + (es. 393331234567).
     // Se vuoto, WhatsApp apre la scelta del contatto con il testo già scritto (utile per la prova).
-    whatsapp: '',
+    whatsapp: '393317972905',
     instagram: 'https://ig.me/m/ilcoraggiodifiorire',                                   // apre la chat DM
     facebook: 'https://www.facebook.com/share/17t61dgn73/?mibextid=wwXIfr',              // pagina (poi «Messaggio»)
     tiktok: 'https://www.tiktok.com/@il.coraggio.di.fi?_r=1&_t=ZG-98pMKdzc0kz'           // profilo (poi messaggio)
