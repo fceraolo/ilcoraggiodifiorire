@@ -1,8 +1,8 @@
-/* Il Coraggio di Fiorire — POC. Nessuna dipendenza: JS puro. */
+/* Il Coraggio di Fiorire. Nessuna dipendenza: JS puro. */
 (function () {
   'use strict';
 
-  /* ===== Configurazione (da compilare prima della pubblicazione) ===== */
+  /* ===== Configurazione ===== */
   var CONFIG = {
     // Numero WhatsApp di Martina in formato internazionale senza + (es. 393331234567).
     // Se vuoto, WhatsApp apre la scelta del contatto con il testo già scritto (utile per la prova).

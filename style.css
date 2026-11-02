@@ -1,4 +1,4 @@
-/* Il Coraggio di Fiorire — POC. Stessa identità del sito attuale: palette rosa antico, Great Vibes / Amatic SC / Josefin Sans. */
+/* Il Coraggio di Fiorire — Stessa identità del sito attuale: palette rosa antico, Great Vibes / Amatic SC / Josefin Sans. */
 @font-face{font-family:'Great Vibes';src:url(fonts/GreatVibes-400.woff2) format('woff2');font-weight:400;font-display:swap}
 @font-face{font-family:'Amatic SC';src:url(fonts/AmaticSC-400.woff2) format('woff2');font-weight:400;font-display:swap}
 @font-face{font-family:'Amatic SC';src:url(fonts/AmaticSC-700.woff2) format('woff2');font-weight:700;font-display:swap}
@@ -33,7 +33,6 @@ h2{font-family:var(--script);font-weight:400;font-size:clamp(2.6rem,7vw,4.6rem);
 .js .rv.in{opacity:1;transform:none}
 
 /* ---------- barra social + header ---------- */
-.poc-flag{background:var(--night);color:#f0d9d4;font-size:.72rem;letter-spacing:.06em;text-align:center;padding:.3rem .6rem}
 .social-banner{background:var(--accent);color:#fff;padding:.55rem var(--pad);font-size:.8rem}
 .social-banner-inner{display:flex;flex-wrap:wrap;gap:.2rem 1rem;justify-content:center;align-items:center}
 .sb-short{display:none}.sb-links{display:flex;gap:1rem}.sb-links a{font-weight:600;text-underline-offset:2px}
@@ -420,7 +419,6 @@ h2.small{font-size:clamp(1.9rem,4.5vw,2.8rem)}
   .hero-cta .btn{font-size:.66rem;letter-spacing:.1em;padding:.6rem .95rem}
   .hero-in{padding-bottom:4.6rem}
   .social-row{gap:.4rem}.social-row .btn{font-size:.6rem;letter-spacing:.06em;padding:.5rem .7rem}
-  .poc-flag{font-size:.64rem}
 }
 
 /* catalogo: tutte le categorie sempre leggibili (vanno a capo, niente scorrimento nascosto) */
