@@ -65,12 +65,12 @@
 <header class="hdr" id="hdr">
   <a class="brand" href="#top" aria-label="Il Coraggio di Fiorire, torna all'inizio">Il Coraggio di Fiorire</a>
   <nav class="nav" aria-label="Sezioni">
-    <a href="#recensioni">Recensioni</a>
     <a href="#fiori">I fiori</a>
     <a href="#catalogo">Il catalogo</a>
     <a href="#album">L'album</a>
     <a href="#storie">Le Storie</a>
     <a href="#ordina">Come ordinare</a>
+    <a href="#recensioni">Recensioni</a>
   </nav>
   <button class="cartbtn" type="button" id="openCart" aria-label="Apri la tua richiesta">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a1.5 1.5 0 0 1-1.5 1.3H7.7a1.5 1.5 0 0 1-1.5-1.3L5 8Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
@@ -102,25 +102,6 @@
   <div class="story-in">
     <p class="wr">Ci sono fiori che sbocciano per un giorno e poi appassiscono.<br/>E poi ci sono fiori nati per <strong>custodire per sempre</strong> ciò che quel giorno ha significato.</p><p class="wr">Ogni petalo viene modellato a mano, un filo alla volta, con la stessa cura con cui si custodisce <strong>un ricordo prezioso</strong>.<br/><strong>Ogni fiore è un piccolo frammento di emozione</strong>: il simbolo di una nascita, di un amore, di un traguardo, di una persona speciale o di un momento che merita di rimanere nel tempo.</p><p class="wr"><strong>Ogni creazione è unica</strong>, personalizzabile e realizzata appositamente per te.<br/>Non troverai mai un oggetto uguale ad un altro.<br/><strong>Ogni prodotto fatto a mano porta con sé una storia, un significato e un sentimento destinato a non appassire mai.</strong></p>
   </div>
-</section>
-
-<!-- ========== RECENSIONI ========== -->
-<section class="recensioni" id="recensioni">
-  <div class="wrapx">
-    <div class="rev-head">
-      <div class="rev-score rv">
-        <p class="eyebrow">Le recensioni</p>
-        <h2>Dicono di noi</h2>
-        
-      </div>
-      <div class="rev-ctrl rv" style="--d:.15s" hidden>
-        <button type="button" class="rarrow" id="rPrev" aria-label="Recensione precedente">&#8249;</button>
-        <button type="button" class="rarrow" id="rNext" aria-label="Recensione successiva">&#8250;</button>
-      </div>
-    </div>
-  </div>
-  <div class="rtrack" id="rTrack"></div>
-  <p class="vuoto">Presto qui le recensioni.</p>
 </section>
 
 <!-- ========== I FIORI (scorrimento orizzontale con frecce) ========== -->
@@ -239,6 +220,25 @@ Questa sezione nasce per custodire tutto questo. Perché alcune storie — e alc
     </div>
     <div class="rv"><div class="social-row center"><a class="btn ghost sm" href="https://www.instagram.com/ilcoraggiodifiorire?igsh=Y29ncG43dXBzY283&amp;utm_source=qr" rel="noopener" target="_blank">Scrivimi su Instagram</a><a class="btn ghost sm" href="https://www.facebook.com/share/17t61dgn73/?mibextid=wwXIfr" rel="noopener" target="_blank">Scrivimi su Facebook</a><a class="btn ghost sm" href="https://www.tiktok.com/@il.coraggio.di.fi?_r=1&amp;_t=ZG-98pMKdzc0kz" rel="noopener" target="_blank">Scrivimi su TikTok</a></div></div>
   </div>
+</section>
+
+<!-- ========== RECENSIONI ========== -->
+<section class="recensioni" id="recensioni">
+  <div class="wrapx">
+    <div class="rev-head">
+      <div class="rev-score rv">
+        <p class="eyebrow">Le recensioni</p>
+        <h2>Dicono di noi</h2>
+        
+      </div>
+      <div class="rev-ctrl rv" style="--d:.15s" hidden>
+        <button type="button" class="rarrow" id="rPrev" aria-label="Recensione precedente">&#8249;</button>
+        <button type="button" class="rarrow" id="rNext" aria-label="Recensione successiva">&#8250;</button>
+      </div>
+    </div>
+  </div>
+  <div class="rtrack" id="rTrack"></div>
+  <p class="vuoto">Presto qui le recensioni.</p>
 </section>
 
 </main>

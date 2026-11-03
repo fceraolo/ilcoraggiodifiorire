@@ -136,12 +136,19 @@
 
   /* ===== Album: mostra tutto ===== */
   $('#aMore').addEventListener('click', function () {
-    $('#aWrap').classList.add('open'); this.parentNode.hidden = true; setTimeout(armCards, 50);
+    // L'altezza si adatta al contenuto vero (prima c'era un tetto fisso di 4000 px che tagliava gli ultimi lavori quando l'album cresceva):
+    // si anima fino all'altezza di adesso e poi il limite si toglie, così anche le foto che finiscono di caricarsi dopo ci stanno.
+    var w = $('#aWrap');
+    w.style.maxHeight = w.clientHeight + 'px';
+    w.classList.add('open'); this.parentNode.hidden = true;
+    requestAnimationFrame(function () { w.style.maxHeight = w.scrollHeight + 'px'; });
+    setTimeout(function () { w.style.maxHeight = 'none'; }, 1000);
+    setTimeout(armCards, 50);
   });
 
   /* ===== Scroll unico (rAF) ===== */
   var hdr = $('#hdr'), prog = $('#progress'), hero = $('#heroIn'), totop = $('#totop'), ticking = false, hdrH = 60;
-  var secs = ['recensioni', 'fiori', 'catalogo', 'album', 'storie', 'ordina'].map(function (id) { return { id: id, el: document.getElementById(id) }; });
+  var secs = ['fiori', 'catalogo', 'album', 'storie', 'ordina', 'recensioni'].map(function (id) { return { id: id, el: document.getElementById(id) }; });
   var navA = $$('.nav a');
   function onScroll() {
     ticking = false;

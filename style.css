@@ -391,7 +391,7 @@ h2.small{font-size:clamp(1.9rem,4.5vw,2.8rem)}
 /* ---------- album dei lavori ---------- */
 .album{background:linear-gradient(180deg,var(--bg) 0,#f7e3df 100%);padding:clamp(4rem,10vh,7rem) 0 clamp(3rem,7vh,5rem)}
 .agrid-wrap{position:relative;margin-top:2rem;max-height:980px;overflow:hidden;transition:max-height .9s var(--ease)}
-.agrid-wrap.open{max-height:4000px}
+.agrid-wrap.open{max-height:none}
 .agrid{column-count:3;column-gap:1.1rem}
 @media(max-width:900px){.agrid{column-count:2;column-gap:.8rem}.agrid-wrap{max-height:760px}}
 .acard{break-inside:avoid;margin:0 0 1.1rem;background:#fffaf8;border:1px solid var(--line);border-radius:18px;padding:.55rem .55rem .2rem;cursor:pointer;box-shadow:0 18px 30px -26px rgba(74,47,51,.65);transition:transform .5s var(--ease),box-shadow .5s}
